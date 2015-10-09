@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Homestuck</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- INTRO -->
+    <div id="impress">
+        <div id="intro" class="step slide">
+            <div class="slide-text" style="background-image: url('Images/John.png');">
+                <p>You are in a game,your name is John Egbert</p>
+                <p>Recently you have finished your final weapon and are itching for a fight! </p>
+                <p>You have decided to look for the boss of your world today.</p>
+                <p>As you step out your door you are greeted with two paths.</p>
+                <br />
+                <p>Which path will you take?</p>
+                <p><a href="#left">Go left</a></p>
+                <p>or</p>
+                <p><a href="#right">Go right</a></p>
+            </div>
+        </div>
+
+        <!-- INTRO -->
+        <!-- LEFT -->
+        <div id="left" class="step slide" data-x="-1500">
+            <div class="slide-text" style="background-image: url('Images/on fire.gif'); ">
+                <p>Along the path you come across the village of salamanders.</p>
+                <p>But things today look different.</p>
+                <p>The village is on fire!</p>
+                <p>It is being attacked by the infamous jack noir!</p>
+                <br />
+                <p>Will you help?</p>
+                <p><a href="#help">Help them!</a></p>
+                <p>or</p>
+                <p><a href="#ignore">Ignore Them!</a></p>
+            </div>
+        </div>
+
+            <!-- LEFT -->
+            <!-- LEFT/HELP -->
+            <div id="help" class="step slide" data-x="1500">
+                <div class="slide-text"style="background-image: url('Images/john vs noir.png');">
+                    <p>You join forces with the salamanders in an attempt to repel Jack.</p>
+                    <p>Its a long and bloody fight but you manage to repel him off.</p>
+                    <p>The village cheif approches you with a hint to finding the boss</p>
+                    <p>But he is only 50% sure that it wont actually kill you</p>
+                    <p>He says if you jump down a mail pipe itll lead you to the bosses lair</p>
+                    <br />
+                    <p>Will you trust him?</p>
+                    <p><a href="#downthehole">Down the hole!</a></p>
+                    <p>or</p>
+                    <p><a href="#BetterIdea">Find a smarter idea</a></p>
+                </div>
+            </div>
+            <!-- LEFT/HELP -->
+        <!-- LEFT/IGNORE -->
+        <div id="ignore" class="step slide" data-x="-3000">
+            <div class="slide-text"style="background-image: url('Images/noir looking here.gif');">
+                <p>As you look at the fight you swear that jack looks in your direction .</p>
+                <p>Oh well you contine down the path</p>
+                <p>You find a temple at the end of the path.</p>
+                <br />
+                <p>Will you enter the temple?</p>
+                <p><a href="#enter">Adventure!</a></p>
+                <p>or</p>
+                <p><a href="#turnaround">Turn Around</a></p>
+            </div>
+        </div>
+        <!-- LEFT/IGNORE -->
+            <!-- RIGHT -->
+            <div id="right" class="step slide" data-x="3000">
+                <div class="slide-text" style="background-image: url('Images/skaia.jpg');">
+                    <p>You have arrived at the land of kings and chess.</p>
+                    <p>You see a black castle off in the distance.</p>
+                    <p>On the other side you see thousands of figures fighting.</p>
+                    <br />
+                    <p>What will you goto?</p>
+                    <p><a href="#Castle">Towards the Castle.</a></p>
+                    <p>or</p>
+                    <p><a href="#Battlefield">Towards the battlefield.</a></p>
+                </div>
+            </div>
+            <!-- RIGHT -->
+            <!-- RIGHT/Castle -->
+            <div id="Castle" class="step slide" data-x="4500">
+                <div class="slide-text" style="background-image: url('Images/blackcastle.gif');">
+                    <p>You are standing in front of the gate.</p>
+                    <p>The guards do not look kind and tell you to get lost.</p>
+                    <p>A small figure in the corner of your eye catches your attention.</p>
+                    <br />
+                    <p>What will you do?</p>
+                    <p><a href="#entercastle">Try to enter the castle.</a></p>
+                    <p>or</p>
+                    <p><a href="#investigate">Investigate the figure.</a></p>
+                </div>
+            </div>
+            <!-- RIGHT/Castle -->
+            <!-- RIGHT/Battlefield -->
+            <div id="Battlefield" class="step slide" data-x="-4500">
+                <div class="slide-text" style="background-image: url('Images/battlefield.jpg');">
+                    <p>You are standing on the outskirts of the battlefield.</p>
+                    <p>You notice a white castle on the other side of the Battlefield.</p>
+                    <p>You wonder if the queen knows how to find the boss.</p>
+                    <p>You also notice that the black camp is close by.</p>
+                    <p>You wonder if you could gain an audience with their queen if you ask.</p>
+                    <br />
+                    <p>What will you do?</p>
+                    <p><a href="#cross">Cross the battlefield.</a></p>
+                    <p>or</p>
+                    <p><a href="#approch">Approch the general.</a></p>
+                </div>
+            </div>
+            <!-- RIGHT/BATTLEFIELD -->
+            <!-- RIGHT/BATTLEFIELD/CROSS -->
+            <div id="cross" class="step slide" data-x="6000">
+                <div class="slide-text" style="background-image: url('Images/cross.gif');">
+                    <p>You try to cross the battlefield.</p>
+                    <p>Are you dumb?.</p>
+                    <p>You are torn to bits by both armies.</p>
+                    <p>What were you expecting?</p>
+                    <div class="menu">
+                        <a href="#intro">YOU LOSE</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- RIGHT/BATTLEFIELD/CROSS -->
+            <!-- RIGHT/BATTLEFIELD/approch -->
+            <div id="approch" class="step slide" data-x="-6000">
+                <div class="slide-text" style="background-image: url('Images/Blood_Spade_Jack_Noir.png');">
+                    <p>You try to approch the black general.</p>
+                    <p>He demands that you identify yourself.</p>
+                    <p>You explain your situation to him.</p>
+                    <p>He does not seem interested.</p>
+                    <p>He orders his pawns to lock you away for disrupting him.</p>
+                    <div class="menu">
+                        <a href="#intro">YOU LOSE</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- RIGHT/BATTLEFIELD/approch -->
+            <!-- RIGHT/CASTLE/enterCastle -->
+            <div id="entercastle" class="step slide" data-x="7500">
+                <div class="slide-text" style="background-image: url('Images/Vriska_vs_aradiabot02-1.gif');">
+                    <p>You try to force your way past the guards.</p>
+                    <p>They do not take kindly to it.</p>
+                    <p>They stab you and drag your body away</p>
+
+                    <div class="menu">
+                        <a href="#intro">YOU LOSE</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- RIGHT/CASTLE/ENTERCASTLE -->
+            <!-- RIGHT/CASTLE/investigate -->
+            <div id="investigate" class="step slide" data-x="-7500">
+                <div class="slide-text" style="background-image: url('Images/spy.gif');">
+                    <p>You slowly approch the shady figure.</p>
+                    <p>As you approch from behind you overhear him talking to someone.</p>
+                    <p>You relise that he is a spy!</p>
+                    <p>The spy quickly turns around and rushes you!</p>
+                    <p>Befor you are able to react he plunges his knife into your heart</p>
+                    <div class="menu">
+                        <a href="#intro">YOU LOSE</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- RIGHT/CASTLE/ENTERCASTLE -->
+            <!-- LEFT/HELP/DOWNTHEHOLE -->
+            <div id="downthehole" class="step slide" data-x="9000">
+                <div class="slide-text"style="background-image: url('Images/denizen.png');">
+                    <p>You jump down the hole without hesitation!.</p>
+                    <p>after 10 min of what you thought endless falling you ht the bottom.</p>
+                    <p>When you get to your feet you notice the figure of salamander legends</p>
+                    <p>You are still shaken up by the fall and cant concentrate</p>
+                    <p>All of a sudden he offers you a tresure coffer congratulating you</p>
+                    <p>He explains that the actual part of this world was to get to him</p>
+                    <p>You dont really understand but hey...</p>
+
+                    <div class="menu">
+                        <a href="#intro">YOU WIN</a>
+                    </div>
+                </div>
+            </div>
+            <!-- LEFT/HELP/DOWNTHEHOLE -->
+            <!-- LEFT/HELP/BetterIdea -->
+            <div id="BetterIdea" class="step slide" data-x="-9000">
+                <div class="slide-text" style="background-image: url('Images/path.gif'); " >
+                    <p>You wander aimlessly for hours.</p>
+                    <p>All of a sudden you start falling.</p>
+                    <p>When you hit the bottom you try to stand but your leg is in pain</p>
+                    <p>The fall must of broke it</p>
+                    <p>You then relise that your in a pitfall trap ment for hunting</p>
+
+                    <p>Theres nothing else you can do but wait for the salamanders to return</p>
+                    <p>You wasted theday inside a hole...</p>
+
+                    <div class="menu">
+                        <a href="#intro">YOU LOSE</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- LEFT/HELP/Better Idea -->
+            
+            <!-- LEFT/IGNORE/ENTER -->
+            <div id="enter" class="step slide" data-x="-10500">
+                <div class="slide-text" style="background-image: url('Images/temple.gif')">
+                    <p>As you enter the temple you feel your foot slowly sink.</p>
+                    <p>You have stped on a trap</p>
+                    <p>Almost instantly two logs swing down from the ceiling crushing you</p>
+
+                    <div class="menu">
+                        <a href="#intro">YOU LOSE</a>
+                    </div>
+                </div>
+            </div>
+            <!-- LEFT/IGNORE/ENTER -->
+            <!-- LEFT/IGNORE/TURNAROUND -->
+            <div id="turnaround" class="step slide" data-x="10500">
+                <div class="slide-text"style="background-image: url('Images/stabbingme.png');">
+                    <p>As you turn around a dark figure looms in your eyes.</p>
+                    <p>Jack has finished with the village and now hes on to you</p>
+                    <p>He appears behind you and jabs his sword into your gut</p>
+                    <p>YOU DIE</p>
+
+                    <div class="menu">
+                        <a href="#intro">YOU LOSE</a>
+                    </div>
+                </div>
+            </div>
+            <!-- LEFT/IGNORE/TURNAROUND -->
+
+        </div>
+    
+            
+
+
+
+
+            <!-- JavaScript Section -->
+            <script src="js/impress.js"></script>
+            <script>impress().init();</script>
+</body>
+</html>
